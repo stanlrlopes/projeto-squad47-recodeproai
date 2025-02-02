@@ -1,0 +1,29 @@
+{
+  "name": "projeto-squad47-recodeproai",
+  "version": "1.0.0",
+  "description": "Divulgação de vagas, cursos e talentos PCDs, conectando profissionais a empresas inclusivas.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanlrlopes/projeto-squad47-recodeproai.git"
+  },
+  "keywords": [
+    "PCDs",
+    "vagas",
+    "cursos",
+    "empresa",
+    "inclusiva",
+    "divulgação",
+    "profissional",
+    "PCD"
+  ],
+  "author": "Alunos do Recode Pro AI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanlrlopes/projeto-squad47-recodeproai/issues"
+  },
+  "homepage": "https://github.com/stanlrlopes/projeto-squad47-recodeproai#readme"
+}
