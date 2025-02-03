@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PCD - Plataforma de Conexão e Diversidade</title>
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <!-- Logo -->
+          <a href="./index.html" class="logo navbar-brand">
+            <img
+              src="./assets/logo.svg"
+              id="logo"
+              class="navbar-brand-img"
+              alt="Logo"
+            />
+          </a>
+
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- Navigation -->
+            <ul id="menu" class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link"> Sobre </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./pages/vagas-cursos.html"
+                  class="nav-link"
+                  id="navbarPages"
+                >
+                  Vagas e Cursos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./pages/profissionais.html" class="nav-link">
+                  Profissionais
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./pages/contato.html" class="nav-link"> Contato </a>
+              </li>
+            </ul>
+
+            <!-- Button -->
+            <a
+              href="./pages/login.html"
+              class="btn cadastro navbar-btn btn-sm btn-primary lift ms-auto"
+            >
+              Entrar/Cadastrar
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="pt-4 pt-md-11">
+      <!-- Heading -->
+      <section class="hero">
+        <div class="container">
+          <h1 class="text-center mb-0">
+            Bem-vindo a <span class="text-primary">PCD</span>.
+          </h1>
+          <h4 class="text-center">
+            <span class="text-primary">P</span>lataforma de
+            <span class="text-primary">C</span>onexão e
+            <span class="text-primary">D</span>iversidade
+          </h4>
+        </div>
+      </section>
+
+      <!-- To Pages -->
+      <section>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-7 col-lg-6 order-md-1">
+              <!-- Text -->
+              <h5 class="text-center text-md-start">
+                Dedicado à pessoas com deficiência (PCDs)
+              </h5>
+              <p
+                class="lead text-center text-md-start text-body-secondary mb-6 mb-lg-8"
+              >
+                Divulgamos vagas, cursos e perfis de talentos PCDs para
+                facilitar contratações e promover a inclusão no mercado de
+                trabalho.
+              </p>
+
+              <!-- Buttons -->
+              <div class="text-center text-md-start gap-2">
+                <a
+                  href="./pages/vagas-cursos.html"
+                  class="btn btn-primary shadow lift me-1"
+                >
+                  Vagas e Cursos
+                </a>
+                <a
+                  href="./pages/profissionais.html"
+                  class="btn btn-primary lift"
+                >
+                  Banco de Talentos
+                </a>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-6 order-md-2 text-md-end">
+              <!-- Image -->
+              <img
+                src="assets/illustration-4.png"
+                id="image-acess"
+                class="img-fluid mb-6 mb-md-0"
+                alt="Mulher em cadeira de rodas com notebook"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- To Login-->
+      <section id="about">
+        <div class="container py-md-2 py-lg-4">
+          <!-- Item -->
+          <div class="row align-items-center py-3 py-sm-4 py-lg-5 gap-lg-5">
+            
+            <div class="col-md-6 order-md-2 py-3">
+              <h2 class="h1 pb-sm-2 pb-lg-3 fs-1">Venha fazer parte!</h2>
+              <p class="pb-3">
+                Nosso site é dedicado à inclusão e empregabilidade de pessoas
+                com deficiência (PCDs). Conectamos profissionais PCDs a empresas
+                comprometidas com a diversidade, oferecendo vagas de emprego,
+                cursos de capacitação e um espaço para destacar talentos. Aqui,
+                as empresas encontram profissionais, e os candidatos acessam
+                oportunidades para crescer e se desenvolver no mercado de
+                trabalho. Juntos, construímos um futuro mais
+                acessível e inclusivo!
+              </p>
+              <a
+                class="d-inline-flex align-items-center fw-semibold text-decoration-none"
+                href="./pages/login.html"
+              >
+                Cadastre uma oportunidade
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div class="col-md-6 col-xxl-5 order-md-1">
+              <img
+                class="img-fluid mb-6 mb-md-0"
+                src="assets/illustration-5.png"
+                alt="Image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content container">
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+        <p>©2025 Squad 57 Recode PRO AI. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
