@@ -1,68 +1,55 @@
-﻿PCD - Plataforma de Conexão e Diversidade 🦾🦿👩‍🦽
+# Squad 57 👩‍💻 
 
-A PCD é uma plataforma voltada para a inclusão profissional de pessoas com deficiência (PCD). Acreditamos que o acesso ao mercado de trabalho deve ser igualitário e sem barreiras.
-
-Nosso site facilita a conexão entre candidatos e empresas comprometidas com a acessibilidade, garantindo um processo de recrutamento mais inclusivo.
-
-
-
-Proposta 📋
-
-A inclusão no mercado de trabalho ainda é um desafio para muitas pessoas com deficiência. A PCD nasceu para mudar essa realidade, oferecendo uma plataforma acessível e eficiente para conectar talentos a empresas que valorizam a diversidade.
-
-Acreditamos que todos devem ter oportunidades iguais para crescer profissionalmente, e nosso site busca tornar esse caminho mais fácil. Com o PCD Jobs, queremos:
-✔️ Ampliar a visibilidade de vagas destinadas a PCDs
-✔️ Incentivar empresas a adotarem políticas inclusivas
-✔️ Construir um ambiente de trabalho mais diverso e acessível
-
-📢 Juntos, podemos fazer a diferença!
-
-Sobre a PCD - Plataforma de Conexão e Diversidade 🌎
-
-A sigla PCD refere-se a Pessoas com Deficiência, um termo adotado para identificar indivíduos que possuem limitações físicas, sensoriais, intelectuais ou múltiplas. No Brasil, a Lei nº 13.146/2015 (Estatuto da Pessoa com Deficiência) garante direitos e promove a inclusão dessas pessoas na sociedade.
-
-Infelizmente, muitas PCDs ainda enfrentam dificuldades para ingressar e se manter no mercado de trabalho. O PCD Jobs surge como uma solução para facilitar esse acesso, conectando talentos a empresas que realmente se preocupam com a diversidade e acessibilidade.
-
-As Pessoas com Deficiência (PCD) representam uma parte essencial da nossa sociedade e possuem talentos incríveis que merecem reconhecimento e oportunidade. No entanto, ainda enfrentam barreiras, especialmente no mercado de trabalho.
-
-A PCD - Plataforma de Conexão e Diversidade acredita que inclusão não é caridade, é um direito! Nosso compromisso é garantir que mais empresas compreendam a importância da acessibilidade e que mais profissionais PCD tenham oportunidades para crescer e brilhar.
-
-🔹 Nosso compromisso: promover mais oportunidades e inclusão no mercado de trabalho.
-🔹 Nosso objetivo: ser uma ponte entre candidatos PCD e empresas que valorizam a diversidade.
-💡 Nosso lema: Nenhum talento deve ser invisível!
-📢 Junte-se a nós nessa causa e vamos transformar o mercado de trabalho!
-
-Tecnologias Utilizadas 💻
-SQLite 🗄️
-HTML/CSS 🎨
-Boostrap 📜
-
-Como Executar o Projeto 🛠️
-Clone o repositório:
-
-git clone https://github.com/stanlrlopes/projeto-squad57-recodeproai.git
-Navegue até o diretório do projeto:
-
-cd projeto-squad57-recodeproai
-Crie um ambiente virtual:
-
-Squad 57 👩‍💻
-Liderança 🌟
+## Integrantes 🌟
 Bruna D’Oliveira
-
-Integrantes 🌟
 Francisco Stanl
 Rafaela Meira
 Roberta Oliveira
 
-Divisão de Tarefas 🔄
-A divisão das tarefas foi decidida durante uma reunião e esse foi nosso primeiro Brainstorm: https://docs.google.com/presentation/d/1JgThO3nEcj1CejTZhiDfZ3S4U4xlYfzsfQrgsm4rNvs/edit#slide=id.g32a1e47a7a9_0_0
-
-Reuniões e Comunicação 📅
-Reunião Inicial:
-
-Realizamos uma reunião para discutir o progresso e alinhar atividades. 
-Comunicação:
+# PCD - Uma plataforma de Conexão e Diversidade
 
 
-Utilizamos o Whatsapp para comunicação. 
+## Sobre o projeto:
+
+### Considerando o desafio escolhido, qual é o problema a ser resolvido e que será contemplado com o projeto final? 
+O problema que o projeto resolve é a dificuldade de pessoas com deficiência em encontrar vagas de emprego adequadas e cursos de capacitação que as ajudem a se qualificar. Além disso, o site permite que essas pessoas exponham seus currículos de forma visível para os empregadores, aumentando suas chances de serem contratadas. A proposta visa facilitar a inserção dessas pessoas no mercado de trabalho e a ampliação do acesso a oportunidades.
+
+### Qual o público-alvo? A solução poderá ser aplicada a todos, sem restrição de idade ou grau de escolaridade, por exemplo?  
+O público-alvo do projeto são pessoas com deficiência, de qualquer idade, que buscam emprego ou cursos para qualificação profissional. O site é inclusivo, permitindo que indivíduos com diferentes tipos de deficiência possam se beneficiar das vagas e dos cursos divulgados. A solução pode ser aplicada a todos, independentemente do grau de escolaridade e idade, pois as oportunidades são diversificadas e incluem cursos para diversos níveis de conhecimento e cargos no mercado de trabalho.
+
+### Como esse problema afeta o público-alvo? 
+O problema afeta diretamente a autonomia e a qualidade de vida das pessoas com deficiência, limitando suas oportunidades de emprego e de crescimento profissional. Muitas vezes, essas pessoas enfrentam barreiras físicas, educacionais e sociais que dificultam o acesso ao mercado de trabalho, levando a uma maior vulnerabilidade econômica e social. Junto a isto, há falta de plataformas inclusivas e adaptadas, que considerem suas necessidades específicas. Ao proporcionar um espaço de fácil acesso para encontrar oportunidades de emprego e cursos, o site visa diminuir essas desigualdades e proporcionar mais chances para o público-alvo.
+
+### Qual o cronograma das atividades?  
+1- Pesquisa, Briefing e ideação (DEZEMBRO 2024-FEVEREIRO 2025)
+2-Contato com profissionais e instituições sobre pcd’s (JANEIRO-MARÇO 2025)
+3-Aprimoramento do conteúdo do site (FEVEREIRO-ABRIL 2025)
+4-Identidade visual + Layout e design (JANEIRO-MARÇO)
+5-Desenvolvimento (aprimoramento de técnicas e ferramentas de programação) (FEVEREIRO-JUNHO 2025)
+6-Testes de acessibilidade e funcionalidade (MARÇO-MAIO 2025)
+7- Revisão e Ajustes (MAIO-JUNHO 2025)
+8- Publicação (JUNHO 2025)
+9- Manutenção (acompanhamento constante) (JUNHO 2025- EM DIANTE)
+
+### Como será feita a distribuição das atividades entre os integrantes do squad para essa primeira entrega?  
+1- Ideação e conceito do site: Rafaela (Responsável) - Com participação de todos
+
+2- Pesquisa e questionário: Bruna (Responsável) - Com participação de todos
+
+3- Identidade Visual: Rafaela (Responsável) 
+
+4- Apresentação do projeto: Bruna (Responsável) - Com participação de xxxx
+
+5- Banco de Dados: Bruna (Responsável) 
+
+6- Front-end: Rafaela e Roberta (Responsáveis)
+
+7- Criação do repositório no GitHub: Francisco (Responsável)
+
+### Qual a ferramenta de gerenciamento de projeto será usada para o monitoramento das atividades? 
+Trello.
+
+
+
+
+
