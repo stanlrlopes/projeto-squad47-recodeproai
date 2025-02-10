@@ -2,7 +2,7 @@
 
 ## Integrantes 🌟
 - Bruna D’Oliveira
-- Francisco Stanl
+- Francisco Stanlr
 - Rafaela Meira
 - Roberta Oliveira
 
