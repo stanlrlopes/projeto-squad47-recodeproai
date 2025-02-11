@@ -88,229 +88,290 @@
     </header>
     <main>
       <section>
-      <div class="container d-flex justify-content-center">
-        <!-- Page content -->
-        <div class="col-lg-9 py-4">
-          <h1 class="h2">Perfil</h1>
+        <div class="container d-flex justify-content-center">
+          <!-- Page content -->
+          <div class="col-lg-9 py-4">
+            <h1 class="h2">Perfil</h1>
 
-          <!-- Basic info -->
-          <section>
-            <h2 class="h4 pt-4">Basic info</h2>
-            <div class="row g-3 g-sm-4">
-              <div class="col-sm-6">
-                <label class="form-label" for="fn">First name</label>
-                <input class="form-control" type="text" id="fn" />
-              </div>
-              <div class="col-sm-6">
-                <label class="form-label" for="ln">Last name</label>
-                <input class="form-control" type="text" id="ln" />
-              </div>
-              <div class="col-sm-6">
-                <label class="form-label" for="email">Email address</label>
-                <input class="form-control" type="email" id="email" />
-              </div>
-              <div class="col-sm-6">
-                <label class="form-label" for="phone"
-                  >Phone
-                  <span class="text-body-secondary">(optional)</span></label
-                >
-                <input
-                  class="form-control"
-                  type="tel"
-                  data-format='{"numericOnly": true, "delimiters": ["+1 ", " ", " "], "blocks": [0, 3, 3, 2]}'
-                  placeholder="+1 ___ ___ __"
-                  id="phone"
-                />
-              </div>
-              <div class="col-sm-6">
-                <label class="form-label" for="country">Estado</label>
-                <select class="form-select" id="country">
-                  <option value="" selected="" disabled="">
-                    Select country
-                  </option>
-                  <option value="Australia">Australia</option>
-                  <option value="Belgium">Belgium</option>
-                  <option value="Canada">Canada</option>
-                  <option value="Denmark">Denmark</option>
-                  <option value="USA">USA</option>
-                </select>
-              </div>
-              <div class="col-sm-6">
-                <label class="form-label" for="city">Cidade</label>
-                <select class="form-select" id="city" name="city">
-                  <option value="" selected="" disabled="">
-                    Selecione a cidade
-                  </option>
-                  <option value="Australia">Australia</option>
-                  <option value="Belgium">Belgium</option>
-                  <option value="Canada">Canada</option>
-                  <option value="Denmark">Denmark</option>
-                  <option value="USA">USA</option>
-                </select>
-              </div>
-              <div class="col-12">
-                <label class="form-label" for="bio">Bio</label>
-                <textarea
-                  class="form-control"
-                  rows="5"
-                  placeholder="Add a bio"
-                  id="bio"
-                ></textarea>
-              </div>
-              <div class="col-12 d-sm-flex align-items-center pt-sm-2 pt-md-3">
+            <!-- Basic info -->
+            <section>
+              <h2 class="h4 pt-4">Informações básicas</h2>
+              <div class="row g-3 g-sm-4">
+                <div class="col-sm-6">
+                  <label class="form-label" for="fn">Nome</label>
+                  <input class="form-control" type="text" id="fn" />
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="email">E-mail</label>
+                  <input class="form-control" type="email" id="email" />
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="phone"
+                    >Telefone
+                    <span class="text-body-secondary">(opcional)</span></label
+                  >
+                  <input
+                    class="form-control"
+                    type="tel"
+                    placeholder="+55 ___-___"
+                    id="phone"
+                  />
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="country">Estado</label>
+                  <select class="form-select" id="country">
+                    <option value="" selected="" disabled="">
+                      Selecione o estado
+                    </option>
+                    <option value="Acre">Acre</option>
+                    <option value="Alagoas">Alagoas</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Ceará">Ceará</option>
+                    <option value="Distrito Federal">Distrito Federal</option>
+                    <option value="Espírito Santo">Espírito Santo</option>
+                    <option value="Goiás">Goiás</option>
+                    <option value="Maranhão">Maranhão</option>
+                    <option value="Mato Grosso">Mato Grosso</option>
+                    <option value="Mato Grosso do Sul">
+                      Mato Grosso do Sul
+                    </option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Pará">Pará</option>
+                    <option value="Paraíba">Paraíba</option>
+                    <option value="Paraná">Paraná</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Piauí">Piauí</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Rio Grande do Norte">
+                      Rio Grande do Norte
+                    </option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Rondônia">Rondônia</option>
+                    <option value="Roraima">Roraima</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Sergipe">Sergipe</option>
+                    <option value="Tocantins">Tocantins</option>
+                  </select>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="city">Cidade</label>
+                  <select class="form-select" id="city" name="city">
+                    <option value="" selected="" disabled="">
+                      Selecione a cidade
+                    </option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Campinas">Campinas</option>
+                    <option value="Santos">Santos</option>
+                    <option value="São Bernardo do Campo">
+                      São Bernardo do Campo
+                    </option>
+                    <option value="Guarulhos">Guarulhos</option>
+                    <option value="Sorocaba">Sorocaba</option>
+                    <option value="Ribeirão Preto">Ribeirão Preto</option>
+                    <option value="Osasco">Osasco</option>
+                    <option value="Mauá">Mauá</option>
+                    <option value="Diadema">Diadema</option>
+
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Niterói">Niterói</option>
+                    <option value="Duque de Caxias">Duque de Caxias</option>
+                    <option value="São Gonçalo">São Gonçalo</option>
+                    <option value="Campos dos Goytacazes">
+                      Campos dos Goytacazes
+                    </option>
+                    <option value="Belford Roxo">Belford Roxo</option>
+                    <option value="Nova Iguaçu">Nova Iguaçu</option>
+                    <option value="Petrópolis">Petrópolis</option>
+                    <option value="Volta Redonda">Volta Redonda</option>
+                    <option value="Cabo Frio">Cabo Frio</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="bio">Bio</label>
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    placeholder="Add a bio"
+                    id="bio"
+                  ></textarea>
+                </div>
                 <div
-                  class="form-label text-body-secondary mb-2 mb-sm-0 me-sm-4"
+                  class="col-12 d-sm-flex align-items-center pt-sm-2 pt-md-3"
                 >
-                  Gender:
+                  <div
+                    class="form-label text-body-secondary mb-2 mb-sm-0 me-sm-4"
+                  >
+                    Genêro:
+                  </div>
+                  <div class="form-check form-check-inline mb-0">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gender"
+                      value="Male"
+                      id="male"
+                    />
+                    <label class="form-check-label" for="male">Masculino</label>
+                  </div>
+                  <div class="form-check form-check-inline mb-0">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gender"
+                      value="Female"
+                      checked=""
+                      id="female"
+                    />
+                    <label class="form-check-label" for="female"
+                      >feminino</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline mb-0">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gender"
+                      value="Other"
+                      id="other"
+                    />
+                    <label class="form-check-label" for="other">Outro</label>
+                  </div>
                 </div>
-                <div class="form-check form-check-inline mb-0">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="gender"
-                    value="Male"
-                    id="male"
-                  />
-                  <label class="form-check-label" for="male">Male</label>
+                <div class="col-12 d-sm-flex align-items-center">
+                  <div
+                    class="form-label text-body-secondary mb-2 mb-sm-0 me-sm-4"
+                  >
+                    Comunicação:
+                  </div>
+                  <div class="form-check form-check-inline mb-0">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="com-email"
+                      value="Email"
+                      checked=""
+                      id="c-email"
+                    />
+                    <label class="form-check-label" for="c-email">E-mail</label>
+                  </div>
+                  <div class="form-check form-check-inline mb-0">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="com-phone"
+                      value="Phone"
+                      id="c-phone"
+                    />
+                    <label class="form-check-label" for="c-phone"
+                      >Telefone</label
+                    >
+                  </div>
                 </div>
-                <div class="form-check form-check-inline mb-0">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="gender"
-                    value="Female"
-                    checked=""
-                    id="female"
-                  />
-                  <label class="form-check-label" for="female">Female</label>
-                </div>
-                <div class="form-check form-check-inline mb-0">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="gender"
-                    value="Other"
-                    id="other"
-                  />
-                  <label class="form-check-label" for="other">Other</label>
+                <div class="col-12 d-flex justify-content-end pt-3">
+                  <button class="btn btn-secondary" type="button">
+                    Cancelar
+                  </button>
+                  <button class="btn btn-primary ms-3" type="button">
+                    Salvar mudanças
+                  </button>
                 </div>
               </div>
-              <div class="col-12 d-sm-flex align-items-center">
-                <div
-                  class="form-label text-body-secondary mb-2 mb-sm-0 me-sm-4"
-                >
-                  Communication:
-                </div>
-                <div class="form-check form-check-inline mb-0">
+            </section>
+
+            <!-- Password -->
+            <section>
+              <h2 class="h4 pt-4">Mudar senha</h2>
+              <div class="row g-3 g-sm-4 pb-3">
+                <div class="col-sm-6">
+                  <label class="form-label" for="current-pass"> Senha atual </label>
                   <input
-                    class="form-check-input"
-                    type="checkbox"
-                    name="com-email"
-                    value="Email"
-                    checked=""
-                    id="c-email"
+                    class="form-control"
+                    type="password"
+                    id="current-pass"
                   />
-                  <label class="form-check-label" for="c-email">Email</label>
                 </div>
-                <div class="form-check form-check-inline mb-0">
+                <div class="col-sm-6">
+                  <a
+                    class="d-inline-block fs-sm fw-semibold text-decoration-none mt-sm-4"
+                    href="account-password-recovery.html"
+                    >Esqueceu a senha?</a
+                  >
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="new-pass">Nova senha</label>
+                  <input class="form-control" type="password" id="new-pass" />
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="confirm-pass"
+                    >Confirmar nova senha</label
+                  >
                   <input
-                    class="form-check-input"
-                    type="checkbox"
-                    name="com-phone"
-                    value="Phone"
-                    id="c-phone"
+                    class="form-control"
+                    type="password"
+                    id="confirm-pass"
                   />
-                  <label class="form-check-label" for="c-phone">Phone</label>
                 </div>
               </div>
-              <div class="col-12 d-flex justify-content-end pt-3">
-                <button class="btn btn-secondary" type="button">Cancel</button>
+              <div class="alert alert-info d-flex my-3 my-sm-4">
+                <i class="ai-circle-info fs-xl me-2"></i>
+                <p class="mb-0">
+                  A senha deve ter no mínimo 8 caracteres - quanto mais, melhor.
+                </p>
+              </div>
+              <div class="d-flex justify-content-end pt-3">
+                <button class="btn btn-secondary" type="button">
+                  Cancelar
+                </button>
                 <button class="btn btn-primary ms-3" type="button">
-                  Save changes
+                  Salvar mudanças
                 </button>
               </div>
-            </div>
-          </section>
+            </section>
 
-          <!-- Password -->
-          <section>
-            <h2 class="h4 pt-4">Password change</h2>
-            <div class="row g-3 g-sm-4 pb-3">
-              <div class="col-sm-6">
-                <label class="form-label" for="current-pass"
-                  >Current password</label
-                >
-                <input
-                  class="form-control"
-                  type="password"
-                  value="hidden@password"
-                  id="current-pass"
-                />
+            <!-- Delete account -->
+            <section>
+              <h2 class="h4 pt-4">Deletar conta</h2>
+              <div class="alert alert-warning d-flex my-4">
+                <i class="ai-triangle-alert fs-xl me-2"></i>
+                <p class="mb-0">
+                  Quando você exclui sua conta, seu perfil público será
+                  desativado imediatamente. Se você mudar de ideia antes de 14
+                  dias acabar, faça login com seu e-mail e senha, e nós
+                  enviaremos um link para reativar a conta.
+                </p>
               </div>
-              <div class="col-sm-6">
-                <a
-                  class="d-inline-block fs-sm fw-semibold text-decoration-none mt-sm-4"
-                  href="account-password-recovery.html"
-                  >Forgot password?</a
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="confirm" />
+                <label
+                  class="form-check-label text-dark fw-medium"
+                  for="confirm"
+                  >Sim, eu quero deletar minha conta</label
                 >
               </div>
-              <div class="col-sm-6">
-                <label class="form-label" for="new-pass">New password</label>
-                <input class="form-control" type="password" id="new-pass" />
-              </div>
-              <div class="col-sm-6">
-                <label class="form-label" for="confirm-pass"
-                  >Confirm new password</label
-                >
-                <input class="form-control" type="password" id="confirm-pass" />
-              </div>
-            </div>
-            <div class="alert alert-info d-flex my-3 my-sm-4">
-              <i class="ai-circle-info fs-xl me-2"></i>
-              <p class="mb-0">
-                Password must be minimum 8 characters long - the more, the
-                better.
-              </p>
-            </div>
-            <div class="d-flex justify-content-end pt-3">
-              <button class="btn btn-secondary" type="button">Cancel</button>
-              <button class="btn btn-primary ms-3" type="button">
-                Save changes
-              </button>
-            </div>
-          </section>
-
-          <!-- Delete account -->
-          <section>
-            <h2 class="h4 pt-4">Delete account</h2>
-            <div class="alert alert-warning d-flex my-4">
-              <i class="ai-triangle-alert fs-xl me-2"></i>
-              <p class="mb-0">
-                When you delete your account, your public profile will be
-                deactivated immediately. If you change your mind before the 14
-                days are up, sign in with your email and password, and we'll
-                send a link to reactivate account.
-                <a href="#" class="alert-link">Learn more</a>
-              </p>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="confirm" />
-              <label class="form-check-label text-dark fw-medium" for="confirm"
-                >Yes, I want to delete my account</label
+              <div
+                class="d-flex flex-column flex-sm-row justify-content-end pt-4 mt-sm-2 mt-md-3"
               >
-            </div>
-            <div
-              class="d-flex flex-column flex-sm-row justify-content-end pt-4 mt-sm-2 mt-md-3"
-            >
-              <button class="btn btn-danger" type="button">
-                <i class="ai-trash ms-n1 me-2"></i>
-                Delete account
-              </button>
-            </div>
-          </section>
+                <button class="btn btn-danger" type="button">
+                  <i class="ai-trash ms-n1 me-2"></i>
+                  Deletar conta
+                </button>
+              </div>
+            </section>
+          </div>
         </div>
-      </div>
       </section>
     </main>
+    <footer>
+      <div class="footer-content">
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+        <p>©2025 Squad 57 Recode PRO AI. Todos os direitos reservados.</p>
+      </div>
+    </footer>
   </body>
 </html>

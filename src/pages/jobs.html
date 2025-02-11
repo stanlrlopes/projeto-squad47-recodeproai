@@ -86,18 +86,14 @@
 
         <!-- Sidebar (offcanvas on sreens < 992px) -->
         <aside class="col-lg-3">
-          <div class="offcanvas-lg offcanvas-start" id="shopSidebar">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title">Filters</h5>
-              <button class="btn-close" type="button" data-bs-dismiss="offcanvas" data-bs-target="#shopSidebar"
-                aria-label="Close"></button>
-            </div>
+          <div class="offcanvas-lg offcanvas-start" id="filters">
+            <h3 class="h5">Filtre por</h3>
 
             <!-- Body -->
             <div class="offcanvas-body pt-2 pt-lg-0">
 
               <!-- Filter (accordion with checkboxes) -->
-              <h3 class="h5">Filtre por</h3>
+              
               <div class="accordion accordion-alt pt-4" id="filters">
                 <div class="accordion-item mb-0">
                   <h4 class="accordion-header">
@@ -311,14 +307,14 @@
           <!-- Sorting -->
           <div class="d-flex align-items-start justify-content-end mb-4">
             <div class="d-flex align-items-center flex-shrink-0 mb-2"><span
-                class="text-body-secondary text-nowrap fs-sm">Sort by:</span>
+                class="text-body-secondary text-nowrap fs-sm">Ordenar por:</span>
               <select class="form-select form-select-flush py-0">
-                <option value="popular">Most popular</option>
-                <option value="low-high">Low-High price</option>
-                <option value="high-low">High-Low price</option>
+                <option value="popular">Mais popular</option>
+                <option value="low-high">Menor salário</option>
+                <option value="high-low">Maior salário</option>
                 <option value="rating">Average rating</option>
-                <option value="az">A-Z order</option>
-                <option value="za">Z-A order</option>
+                <option value="az">A-Z</option>
+                <option value="za">Z-A</option>
               </select>
             </div>
           </div>
